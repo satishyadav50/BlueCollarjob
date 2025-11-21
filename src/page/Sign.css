@@ -1,0 +1,94 @@
+/* FULL SCREEN BACKGROUND */
+.main-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* SIGNUP CARD */
+.main-page form {
+  width: 100%;
+  max-width: 380px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.20);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* HEADING */
+.heading p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* INPUT FIELDS */
+.account input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 15px 0;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.account input:focus {
+  border-color: #ff4f79;
+  box-shadow: 0 0 5px rgba(255, 79, 121, 0.5);
+}
+
+/* SUBMIT BUTTON */
+button {
+  width: 18%;
+  padding: 5px;
+  background: #ff4f79;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e63c68;
+}
+
+/* LOGIN LINK */
+.account p {
+  margin-top: 12px;
+  text-align: center;
+  color: #444;
+}
+
+.account a {
+  color: #ff4f79;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.account a:hover {
+  text-decoration: underline;
+}

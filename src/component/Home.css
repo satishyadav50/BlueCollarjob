@@ -1,0 +1,214 @@
+/* -------------------- HERO SECTION -------------------- */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.text p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+.text input {
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.text button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.text button:hover {
+  background-color: darkcyan;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* -------------------- BOX SECTION -------------------- */
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  width: 720px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.box,
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  border: 2px solid white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box img,
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img,
+.box5 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+}
+
+/* -------------------- TESTIMONIAL -------------------- */
+
+.testimonial-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonial-div h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+}
+
+.stars {
+  font-size: 28px;
+  color: #f4c430;
+  margin-top: 10px;
+}
+
+.rating-text {
+  color: #555;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid #eee;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.quote {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.user-info img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.small-stars {
+  font-size: 16px;
+  color: #f4c430;
+  margin-bottom: 4px;
+}
+
+.user-name {
+  font-weight: bold;
+  color: #222;
+}
+
+.user-location {
+  font-size: 14px;
+  color: #666;
+}
+
+/* -------------------- CITY SECTION -------------------- */
+
+.jobs-category {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.city {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.bang {
+  width: 300px;
+  height: 100px;
+  background-color: lightblue;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.search h2 {
+  text-align: center;
+  margin: 30px 0;
+}
