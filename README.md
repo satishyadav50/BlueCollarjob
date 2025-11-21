@@ -1,1 +1,1 @@
-# BlueCollarjob
+BlueCollar Job is a web application designed to connect skilled workers with employers looking for their services. The platform allows users to search for jobs by title and location, while employers can post jobs and manage their profiles.
